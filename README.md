@@ -1,12 +1,12 @@
 
 ## Installation
 ```
-npm install iploka.nodejs --save
+npm install iploka.node --save
 ```
 
 ## Usage 
 ```
-var ipLoka = require('iploka.nodejs');
+var ipLoka = require('iploka.node');
 
 var callback = function(res){
     console.log(res);
