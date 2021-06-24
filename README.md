@@ -2,7 +2,7 @@
 
 Get geolocation information from any IP addresses. Get free API Key from https://iploka.com for free-forever 10,000 monthly requests.
 
-`iploka` was developed by (Howuku)[https://howuku.com]. Howuku is an all-in-one CRO & analytics tool to help you optimize conversion rates and user experience.
+`iploka` was developed by [Howuku](https://howuku.com). Howuku is an all-in-one CRO & analytics tool to help you optimize conversion rates and user experience.
 
 [![NPM Version](https://img.shields.io/npm/v/geo-from-ip.svg)](https://www.npmjs.com/package/iploka) [![NPM Download](https://img.shields.io/npm/dm/iploka.svg)](https://www.npmjs.com/package/iploka)
 
