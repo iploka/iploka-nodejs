@@ -40,6 +40,7 @@ module.exports = class {
       let path = '/' + ip + '?api_key=' + this.apikey;
       this.httpReq(path)
       .then(result => {
+        result = JSON.parse(result)
         if (typeof callback === 'function') callback(null, result)
         resolve(result)
       })
@@ -55,6 +56,7 @@ module.exports = class {
       var path = '/check?api_key=' + this.apikey;
       this.httpReq(path)
       .then(result => {
+        result = JSON.parse(result)
         if (typeof callback === 'function') callback(null, result)
         resolve(result)
       })
